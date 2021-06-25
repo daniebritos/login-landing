@@ -1,0 +1,98 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: rgb(149, 149, 149);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 270px;
+    height: 450px;
+    margin: 160px auto;
+    justify-content: space-evenly;
+    box-shadow: 4px 4px 20px black;
+}
+form {
+    display: flex;
+    flex-direction: column;   
+}
+.avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 90px;
+}
+h3 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: initial;
+}
+
+
+.miss a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+     
+}
+.miss {
+    display: flex;
+    text-decoration: none;
+    border: solid 0.5px black;    
+    padding: 8px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    width: 220px;
+    height: 40px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.user input {
+    border: 1px solid rgb(155, 155, 155);
+    padding: 12px;
+    width: 220px;
+} 
+::placeholder {
+    font-size: 18px;
+    padding: 6px;
+    color: #ccc;
+}
+.usone {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: 0.5px solid rgb(155, 155, 155) !important;
+}
+.ustwo {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top: 0.5px solid rgb(155, 155, 155) !important;
+}
+.remember {
+    padding-bottom: 30px;
+    
+}
